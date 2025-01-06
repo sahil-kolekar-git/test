@@ -1,0 +1,13 @@
+package com.ty.read;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ReadDataController {
+
+	@GetMapping("/get")
+	public String getRequest() {
+		return "This is a Get request";
+	}
+}

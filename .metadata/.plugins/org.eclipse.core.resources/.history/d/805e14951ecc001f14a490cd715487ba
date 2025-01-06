@@ -1,0 +1,19 @@
+package com.ty;
+
+import java.io.File;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class ObjectMapping {
+	public static void main(String[] args) throws Exception {
+		ObjectMapping.convertJavaToJson();
+	}
+
+	public static void convertJavaToJson() throws Exception {
+		Customer customer = new Customer();
+		customer.setId(101);
+		customer.setName("Allen");
+		customer.setEmail("allen@gmail.com");
+		customer.setPhone(9394232191l);
+	}
+}

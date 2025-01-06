@@ -1,0 +1,23 @@
+package com.ty.read;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestBody;
+
+@RestController
+@RequestMapping("api")
+public class ReadDataController {
+
+	@GetMapping("/get")
+	public String getRequest() {
+		return "This is a Get request";
+	}
+
+	@PostMapping("/get")
+	public String postRequest() {
+		return "This is a post request";
+	}
+
+}

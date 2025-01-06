@@ -1,0 +1,15 @@
+package com.ty.FirstSpringBoot;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+//@Controller
+//@ResponseBody
+@RestController
+public class AppController {
+
+	@PostMapping("/msg")
+	public String getMessage() {
+		return "Hi, Good Morning";
+	}
+}

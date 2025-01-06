@@ -1,0 +1,23 @@
+package com.ty;
+
+import java.io.File;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class ObjectMapping {
+
+	public static void convertJavaToJson() throws Exception {
+		Customer customer = new Customer();
+		customer.setId(101);
+		customer.setName("Dinga");
+		customer.setEmail("dinga@gmail.com");
+		customer.setPhone(8429393949l);
+		
+		File file = new File("customer.json");
+
+		ObjectMapper mapper = new ObjectMapper();
+
+		mapper.writeValue(file, customer);
+		
+	}
+}

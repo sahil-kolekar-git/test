@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;value&apos; from expression &apos;mapper.readValue(file,Customer.class)&apos;&#x0D;&#x0A;- Original project: &apos;ConvertObject&apos;&#x0D;&#x0A;- Variable name: &apos;value&apos;&#x0D;&#x0A;- Destination method: &apos;com.ty.ObjectMapping.convertJsonToJava()&apos;&#x0D;&#x0A;- Variable expression: &apos;mapper.readValue(file,Customer.class)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;value&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ty{ObjectMapping.java" name="value" replace="true" replaceAllInThisFile="false" selection="1002 38" stamp="1736162019850" varType="false" version="1.0"/>
+</session>

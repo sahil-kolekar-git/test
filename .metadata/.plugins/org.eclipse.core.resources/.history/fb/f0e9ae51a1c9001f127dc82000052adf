@@ -1,0 +1,9 @@
+package com.ty.read;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+
+public class ReadDataController {
+
+}
